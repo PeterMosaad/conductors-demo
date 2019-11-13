@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2A170AA247415D2002AC4C3 /* BannerComponent+Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A170A9247415D2002AC4C3 /* BannerComponent+Communication.swift */; };
+		E2A170AC24741609002AC4C3 /* NavigationBarComponent+Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A170AB24741609002AC4C3 /* NavigationBarComponent+Communication.swift */; };
+		E2A170AE24741640002AC4C3 /* TimerComponent+Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A170AD24741640002AC4C3 /* TimerComponent+Communication.swift */; };
+		E2EF106024741A8000AB1171 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF105F24741A8000AB1171 /* DIContainer.swift */; };
 		E2F0CA25237AAEC0009BB22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA24237AAEC0009BB22A /* AppDelegate.swift */; };
-		E2F0CA27237AAEC0009BB22A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA26237AAEC0009BB22A /* ViewController.swift */; };
-		E2F0CA2A237AAEC0009BB22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F0CA28237AAEC0009BB22A /* Main.storyboard */; };
 		E2F0CA2C237AAEC3009BB22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F0CA2B237AAEC3009BB22A /* Assets.xcassets */; };
 		E2F0CA2F237AAEC3009BB22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F0CA2D237AAEC3009BB22A /* LaunchScreen.storyboard */; };
 		E2F0CA3A237AAEC3009BB22A /* ConductorsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA39237AAEC3009BB22A /* ConductorsDemoUITests.swift */; };
+		E2F0CA46237AAF0F009BB22A /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA45237AAF0F009BB22A /* Channel.swift */; };
+		E2F0CA66237AAFDB009BB22A /* HomeScreenComponentsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA4C237AAFDB009BB22A /* HomeScreenComponentsFactory.swift */; };
+		E2F0CA67237AAFDB009BB22A /* HomeScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA4E237AAFDB009BB22A /* HomeScreenPresenter.swift */; };
+		E2F0CA68237AAFDB009BB22A /* HomeScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA4F237AAFDB009BB22A /* HomeScreenRouter.swift */; };
+		E2F0CA6D237AAFDB009BB22A /* HomeScreenChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA55237AAFDB009BB22A /* HomeScreenChannel.swift */; };
+		E2F0CA74237AAFDB009BB22A /* HomeScreenConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA5D237AAFDB009BB22A /* HomeScreenConductor.swift */; };
+		E2F0CA76237AAFDB009BB22A /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F0CA60237AAFDB009BB22A /* HomeScreenViewController.xib */; };
+		E2F0CA77237AAFDB009BB22A /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA61237AAFDB009BB22A /* HomeScreenViewController.swift */; };
+		E2F0CA7B237ABF35009BB22A /* TimerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA7A237ABF35009BB22A /* TimerComponent.swift */; };
+		E2F0CA7D237AC095009BB22A /* TimerChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA7C237AC095009BB22A /* TimerChannel.swift */; };
+		E2F0CA80237AE429009BB22A /* NavigationBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA7F237AE429009BB22A /* NavigationBarComponent.swift */; };
+		E2F0CA82237AE43E009BB22A /* BannerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA81237AE43E009BB22A /* BannerComponent.swift */; };
+		E2F0CA87237AE61E009BB22A /* NavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F0CA85237AE61E009BB22A /* NavigationBarView.xib */; };
+		E2F0CA88237AE61E009BB22A /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA86237AE61E009BB22A /* NavigationBarView.swift */; };
+		E2F0CA8C237AE8EE009BB22A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA8B237AE8EE009BB22A /* BannerView.swift */; };
+		E2F0CA8F237AF0B2009BB22A /* NavigationBarChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA8E237AF0B2009BB22A /* NavigationBarChannel.swift */; };
+		E2F0CA91237AF139009BB22A /* BannerComponentChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F0CA90237AF139009BB22A /* BannerComponentChannel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +45,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2A170A9247415D2002AC4C3 /* BannerComponent+Communication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BannerComponent+Communication.swift"; sourceTree = "<group>"; };
+		E2A170AB24741609002AC4C3 /* NavigationBarComponent+Communication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationBarComponent+Communication.swift"; sourceTree = "<group>"; };
+		E2A170AD24741640002AC4C3 /* TimerComponent+Communication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerComponent+Communication.swift"; sourceTree = "<group>"; };
+		E2EF105F24741A8000AB1171 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		E2F0CA21237AAEC0009BB22A /* ConductorsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConductorsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F0CA24237AAEC0009BB22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2F0CA26237AAEC0009BB22A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2F0CA29237AAEC0009BB22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2F0CA2B237AAEC3009BB22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F0CA2E237AAEC3009BB22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2F0CA30237AAEC3009BB22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2F0CA35237AAEC3009BB22A /* ConductorsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConductorsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F0CA39237AAEC3009BB22A /* ConductorsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConductorsDemoUITests.swift; sourceTree = "<group>"; };
 		E2F0CA3B237AAEC3009BB22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F0CA45237AAF0F009BB22A /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		E2F0CA4C237AAFDB009BB22A /* HomeScreenComponentsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenComponentsFactory.swift; sourceTree = "<group>"; };
+		E2F0CA4E237AAFDB009BB22A /* HomeScreenPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenPresenter.swift; sourceTree = "<group>"; };
+		E2F0CA4F237AAFDB009BB22A /* HomeScreenRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenRouter.swift; sourceTree = "<group>"; };
+		E2F0CA55237AAFDB009BB22A /* HomeScreenChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenChannel.swift; sourceTree = "<group>"; };
+		E2F0CA5D237AAFDB009BB22A /* HomeScreenConductor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenConductor.swift; sourceTree = "<group>"; };
+		E2F0CA60237AAFDB009BB22A /* HomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		E2F0CA61237AAFDB009BB22A /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		E2F0CA7A237ABF35009BB22A /* TimerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerComponent.swift; sourceTree = "<group>"; };
+		E2F0CA7C237AC095009BB22A /* TimerChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerChannel.swift; sourceTree = "<group>"; };
+		E2F0CA7F237AE429009BB22A /* NavigationBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarComponent.swift; sourceTree = "<group>"; };
+		E2F0CA81237AE43E009BB22A /* BannerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerComponent.swift; sourceTree = "<group>"; };
+		E2F0CA85237AE61E009BB22A /* NavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBarView.xib; sourceTree = "<group>"; };
+		E2F0CA86237AE61E009BB22A /* NavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		E2F0CA8B237AE8EE009BB22A /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		E2F0CA8E237AF0B2009BB22A /* NavigationBarChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarChannel.swift; sourceTree = "<group>"; };
+		E2F0CA90237AF139009BB22A /* BannerComponentChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerComponentChannel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2A170AF2474166C002AC4C3 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				E2A170AD24741640002AC4C3 /* TimerComponent+Communication.swift */,
+				E2A170AB24741609002AC4C3 /* NavigationBarComponent+Communication.swift */,
+				E2A170A9247415D2002AC4C3 /* BannerComponent+Communication.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		E2EF105E247419E500AB1171 /* CommunicationChannels */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0CA55237AAFDB009BB22A /* HomeScreenChannel.swift */,
+				E2F0CA7C237AC095009BB22A /* TimerChannel.swift */,
+				E2F0CA8E237AF0B2009BB22A /* NavigationBarChannel.swift */,
+				E2F0CA90237AF139009BB22A /* BannerComponentChannel.swift */,
+			);
+			path = CommunicationChannels;
+			sourceTree = "<group>";
+		};
 		E2F0CA18237AAEC0009BB22A = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				E2F0CA24237AAEC0009BB22A /* AppDelegate.swift */,
-				E2F0CA26237AAEC0009BB22A /* ViewController.swift */,
-				E2F0CA28237AAEC0009BB22A /* Main.storyboard */,
+				E2F0CA44237AAF0F009BB22A /* CommunicationChannel */,
+				E2F0CA79237ABF1F009BB22A /* Components */,
+				E2F0CA47237AAFDB009BB22A /* HomeScreen */,
 				E2F0CA2B237AAEC3009BB22A /* Assets.xcassets */,
 				E2F0CA2D237AAEC3009BB22A /* LaunchScreen.storyboard */,
 				E2F0CA30237AAEC3009BB22A /* Info.plist */,
@@ -94,6 +154,91 @@
 				E2F0CA3B237AAEC3009BB22A /* Info.plist */,
 			);
 			path = ConductorsDemoUITests;
+			sourceTree = "<group>";
+		};
+		E2F0CA44237AAF0F009BB22A /* CommunicationChannel */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0CA45237AAF0F009BB22A /* Channel.swift */,
+			);
+			path = CommunicationChannel;
+			sourceTree = "<group>";
+		};
+		E2F0CA47237AAFDB009BB22A /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0CA4F237AAFDB009BB22A /* HomeScreenRouter.swift */,
+				E2EF105F24741A8000AB1171 /* DIContainer.swift */,
+				E2F0CA5F237AAFDB009BB22A /* ViewController */,
+				E2F0CA4D237AAFDB009BB22A /* Presenter */,
+				E2F0CA51237AAFDB009BB22A /* Communication */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		E2F0CA4D237AAFDB009BB22A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0CA4E237AAFDB009BB22A /* HomeScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E2F0CA51237AAFDB009BB22A /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				E2EF105E247419E500AB1171 /* CommunicationChannels */,
+				E2F0CA4C237AAFDB009BB22A /* HomeScreenComponentsFactory.swift */,
+				E2F0CA5D237AAFDB009BB22A /* HomeScreenConductor.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		E2F0CA5F237AAFDB009BB22A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0CA61237AAFDB009BB22A /* HomeScreenViewController.swift */,
+				E2F0CA60237AAFDB009BB22A /* HomeScreenViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E2F0CA79237ABF1F009BB22A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0CA8D237AF01C009BB22A /* TimerComonent */,
+				E2F0CA89237AE622009BB22A /* NavigationBarComponent */,
+				E2F0CA8A237AE821009BB22A /* BannerComponent */,
+				E2A170AF2474166C002AC4C3 /* Communication */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E2F0CA89237AE622009BB22A /* NavigationBarComponent */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0CA7F237AE429009BB22A /* NavigationBarComponent.swift */,
+				E2F0CA86237AE61E009BB22A /* NavigationBarView.swift */,
+				E2F0CA85237AE61E009BB22A /* NavigationBarView.xib */,
+			);
+			path = NavigationBarComponent;
+			sourceTree = "<group>";
+		};
+		E2F0CA8A237AE821009BB22A /* BannerComponent */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0CA81237AE43E009BB22A /* BannerComponent.swift */,
+				E2F0CA8B237AE8EE009BB22A /* BannerView.swift */,
+			);
+			path = BannerComponent;
+			sourceTree = "<group>";
+		};
+		E2F0CA8D237AF01C009BB22A /* TimerComonent */ = {
+			isa = PBXGroup;
+			children = (
+				E2F0CA7A237ABF35009BB22A /* TimerComponent.swift */,
+			);
+			path = TimerComonent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +323,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F0CA2F237AAEC3009BB22A /* LaunchScreen.storyboard in Resources */,
+				E2F0CA76237AAFDB009BB22A /* HomeScreenViewController.xib in Resources */,
+				E2F0CA87237AE61E009BB22A /* NavigationBarView.xib in Resources */,
 				E2F0CA2C237AAEC3009BB22A /* Assets.xcassets in Resources */,
-				E2F0CA2A237AAEC0009BB22A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +343,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2F0CA27237AAEC0009BB22A /* ViewController.swift in Sources */,
+				E2A170AC24741609002AC4C3 /* NavigationBarComponent+Communication.swift in Sources */,
+				E2A170AE24741640002AC4C3 /* TimerComponent+Communication.swift in Sources */,
+				E2F0CA46237AAF0F009BB22A /* Channel.swift in Sources */,
+				E2F0CA82237AE43E009BB22A /* BannerComponent.swift in Sources */,
+				E2F0CA8F237AF0B2009BB22A /* NavigationBarChannel.swift in Sources */,
+				E2F0CA7D237AC095009BB22A /* TimerChannel.swift in Sources */,
+				E2EF106024741A8000AB1171 /* DIContainer.swift in Sources */,
+				E2F0CA7B237ABF35009BB22A /* TimerComponent.swift in Sources */,
+				E2F0CA8C237AE8EE009BB22A /* BannerView.swift in Sources */,
+				E2F0CA68237AAFDB009BB22A /* HomeScreenRouter.swift in Sources */,
+				E2F0CA74237AAFDB009BB22A /* HomeScreenConductor.swift in Sources */,
+				E2F0CA66237AAFDB009BB22A /* HomeScreenComponentsFactory.swift in Sources */,
+				E2F0CA67237AAFDB009BB22A /* HomeScreenPresenter.swift in Sources */,
+				E2F0CA91237AF139009BB22A /* BannerComponentChannel.swift in Sources */,
+				E2F0CA77237AAFDB009BB22A /* HomeScreenViewController.swift in Sources */,
 				E2F0CA25237AAEC0009BB22A /* AppDelegate.swift in Sources */,
+				E2A170AA247415D2002AC4C3 /* BannerComponent+Communication.swift in Sources */,
+				E2F0CA6D237AAFDB009BB22A /* HomeScreenChannel.swift in Sources */,
+				E2F0CA88237AE61E009BB22A /* NavigationBarView.swift in Sources */,
+				E2F0CA80237AE429009BB22A /* NavigationBarComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E2F0CA28237AAEC0009BB22A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2F0CA29237AAEC0009BB22A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2F0CA2D237AAEC3009BB22A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

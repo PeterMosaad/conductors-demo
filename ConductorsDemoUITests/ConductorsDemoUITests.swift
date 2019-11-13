@@ -2,7 +2,7 @@
 //  ConductorsDemoUITests.swift
 //  ConductorsDemoUITests
 //
-//  Created by Peter Mosaad Selim Abdelsaid on 12.11.19.
+//  Created by Peter Mosaad on 12.11.19.
 //  Copyright © 2019 Peter Mosaad. All rights reserved.
 //
 
